@@ -1,0 +1,16 @@
+{
+    "require": {
+        "feriwnarta/invoice-module": "dev-main",
+        "guzzle/http": "^3.9",
+        "guzzle/guzzle": "^2.6",
+        "spatie/laravel-permission": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    },
+    "require-dev": {
+        "feriwnarta/post-module": "dev-main"
+    }
+}

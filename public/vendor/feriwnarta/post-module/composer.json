@@ -1,0 +1,31 @@
+{
+    "name": "feriwnarta/post-module",
+    "description": "",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "Feri winarta",
+            "email": "feriwnarta26@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Post\\": "app/",
+            "Modules\\Post\\Database\\Factories\\": "database/factories/",
+            "Modules\\Post\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Post\\Tests\\": "tests/"
+        }
+    }
+}
